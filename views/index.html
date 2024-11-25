@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Sonidos de Animales Salvajes</title>
+    <style>
+        body {
+            background-color: #8B4513;
+            color: #FFF8DC;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(139, 69, 19, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+        h1 {
+            text-align: center;
+            color: #FFD700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            font-size: 2.5em;
+        }
+        .description {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .menu-item {
+            background-color: #654321;
+            padding: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #FFF8DC;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-size: 1.1em;
+            border: 2px solid #DAA520;
+        }
+        .menu-item:hover {
+            background-color: #DAA520;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .paw-print {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🦁 API de Sonidos de Animales 🐯</h1>
+        
+        <div class="description">
+            <p>¡Bienvenido a nuestra API de Sonidos de Animales! Esta plataforma interactiva te permite explorar varios sonidos de animales a través de nuestros endpoints de API. Cada endpoint devuelve el sonido característico de un animal diferente en nuestra colección.</p>
+        </div>
+
+        <div class="menu">
+            <a href="/huron" class="menu-item">
+                <span class="paw-print">🦡</span>
+                API de Sonido del Hurón
+            </a>
+            <a href="/boa_constrictor" class="menu-item">
+                <span class="paw-print">🐍</span>
+                API de Sonido de la Boa Constrictora
+            </a>
+            <a href="/perro" class="menu-item">
+                <span class="paw-print">🐕</span>
+                API de Sonido del Perro
+            </a>
+            <a href="/gato" class="menu-item">
+                <span class="paw-print">🐱</span>
+                API de Sonido del Gato
+            </a>
+        </div>
+    </div>
+</body>
+</html>
